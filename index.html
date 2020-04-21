@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="utf-8" />
+   <link href="style.css" rel="stylesheet" type="text/css" id="stl" />
+   <title>TO THE NEXT DIMENSION</title>
+
+</head>
+<body>
+    
+
+<a href="/room1.html">
+    <img src="window/redwindow.gif" style="position: absolute; top: 550px; left: 1000px; ">
+</a>
+
+        <button onclick="intro()">Do you want to know?</button>
+
+
+        
+      <div id="myDIV">
+          <img src="background/stary_night.gif" style="position: absolute; top: 550px; left: 1000px; ">
+       
+      </div>
+      
+
+
+
+      <div id="box">
+     
+     
+      <p id="intro"></p>
+      </div>
+    
+      <script>
+      var i = 0;
+      var txt = 'I found these windows in a dream I can not stop having. Stained panes aching to be open. Not an entrance but a peephole, dirty and wonderful all at once. Windows to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another to another window to another window to another';
+      var speed = 30;
+      
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("intro").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }  
+    }
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function intro(){
+    myFunction();
+    typeWriter();
+}
+      </script>
+      
+      
+
+
+
+
+
+</body>
+</html>
+
