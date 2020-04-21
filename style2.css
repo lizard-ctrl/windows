@@ -1,0 +1,47 @@
+@font-face {font-family:"Fiolex Girls";src:url("flxgirl.eot?") format("eot"),url("fonts/flxgirl.woff") format("woff"),url("fonts/flxgirl.ttf") format("truetype"),url("fonts/flxgirl.svg#") format("svg");font-weight:normal;font-style:normal;}
+button{
+	background-color: darkorchid;
+	color: palegoldenrod;
+	
+font-size: large;
+font-family: "Fiolex Girls";
+
+}
+p{
+	
+	color:darkorchid;
+	background-color: palegoldenrod;
+	font-size: larger;
+font-family: "Fiolex Girls";
+
+}
+#box{
+ 	width: 10% 
+}
+
+
+
+@media screen and (max-width: 500px) {
+    body {
+          background-color:yellowgreen;
+          background-image: url("background/roseglitter.gif");
+      background-repeat: repeat;
+    }
+    
+    #first {display:none;}
+    #gma {display:none;}
+    #button {display:none;}
+    #second{display:inline-block;}
+}
+
+@media screen and (min-width: 510px) {
+    body {
+      background-color: black;
+      background-image: url("background/1013glitter.gif");
+      background-repeat: repeat;
+    }
+    #first {display:inline-block;}
+    #second{display:none;}
+    
+}
+      

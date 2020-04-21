@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="utf-8" />
+   <link href="style2.css" rel="stylesheet" type="text/css" id="stl" />
+   <title>TO THE NEXT DIMENSION</title>
+
+</head>
+<body>
+    <button onclick="gma()" style="position: absolute;">Yes Grandma?</button>
+    <br><br>
+    <div id="box">
+    <p id="gma"></p>
+    </div>
+
+
+    <img id="first" style="position:absolute; TOP:400px; LEFT:750px;" src="room2/rock.gif">
+    <img id="first" style="position:absolute; TOP:400px; LEFT:580px;" src="room2/tea_steaming_md_wht.gif">
+    <img id="first" style="position:absolute; TOP:520px; LEFT:1100px; WIDTH:90px;" src="room2/candleflicker.gif">
+    <img id="first" style="position:absolute; TOP:520px; LEFT:400px; WIDTH:90px;" src="room2/candleflicker.gif">
+    <img id="first" style="position:absolute; TOP:520px; LEFT:300px; WIDTH:90px;" src="room2/candleflicker.gif">
+    <img id="first" style="position:absolute; TOP:520px; LEFT:300px; WIDTH:90px;" src="room2/candleflicker.gif">
+    <img id="first" style="position:absolute; TOP:520px; LEFT:200px; WIDTH:90px;" src="room2/candleflicker.gif">
+    <img id="first" style="position:absolute; TOP:520px; LEFT:100px; WIDTH:90px;" src="room2/candleflicker.gif">
+    <img id="first" style="position:absolute; TOP:520px; LEFT:0px; WIDTH:90px;" src="room2/candleflicker.gif">
+    <img id="first" style="position:absolute; TOP:520px; LEFT:-100px; WIDTH:90px;" src="room2/candleflicker.gif">
+    <img id="first" style="position:absolute; TOP:100px; LEFT:200px; WIDTH:300px;" src="window/Fran-SummerWindow.gif">
+    <img id="first" style="position:absolute; TOP:50px; LEFT:700px; WIDTH: 40px" src="room2/cross.gif">
+    <img id="first" style="position:absolute; TOP:100px; LEFT:800px;" src="room2/cross2.gif">
+    <img id="first" style="position:absolute; TOP:30px; LEFT:950px; WIDTH:60px;" src="room2/cross_shimmer_md_wht.gif">
+    <img id="first" style="position:absolute; TOP:120px; LEFT:1050px; WIDTH:60px;" src="room2/Cross1globe.gif">
+    <img id="first" style="position:absolute; TOP:200px; LEFT:700px; WIDTH: 70px" src="room2/crxx.gif">
+    <img id="first" style="position:absolute; TOP:220px; LEFT:1100px; WIDTH:70px" src="room2/tributeCross.gif">
+    <img id="first" style="position:absolute; TOP:210px; LEFT:950px; WIDTH:60px;" src="room2/crossflowersmove.gif">
+    <img id="first" style="position:absolute; TOP:20px; LEFT:1100px; WIDTH:60px;" src="room2/cross2.gif">
+
+    <img id="second" style="position:absolute; TOP:330px; LEFT:170px; WIDTH:200px" src="room2/toilet_PNG17752.png">
+    <img id="second" style="position:absolute; WIDTH:200px" src="room2/horsewall.png">
+    <a href="/mirror2.html">
+    <img id="second" style="position:absolute; TOP:-20px; LEFT:310px; WIDTH:200px" src="room2/antique-french-louis-xvi-rococo-ornate-gold-wall-mirror-made-in-italy-1287-1.png">
+    </a>
+
+    <script>
+     var i = 0;
+     var txt = 'Don’t you realize that your body is the temple of the Holy Spirit, who lives in you and was given to you by God? You do not belong to yourself, for God bought you with a high price. So you must honor God with your body. 1 Corinthians 6:19-20';
+     var speed = 20;
+       
+     function typeWriter() {
+         if (i < txt.length) {
+           document.getElementById("gma").innerHTML += txt.charAt(i);
+           i++;
+           setTimeout(typeWriter, speed);
+         }  
+         }
+      
+     function gma(){
+       
+        typeWriter();
+        }
+       </script>
+</body>
